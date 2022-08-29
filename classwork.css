@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    float:left ;
+    width: 15%;
+    height: 93.57vh;
+    padding: 20px;
+    background: purple;
+  }
+  article {
+    display: flex;
+    padding: 15px;
+    width: 64%;
+  } 
+.div1{
+    margin-left: 150px;
+    background-color: purple;
+    text-align: center;
+    padding: 5%;
+    font-size: 50px;
+    font-family:sans-serif ;
+    color: white;
+    margin-top:15% ;
+    padding-left:20%;
+    padding-right: 20%;
+}
+h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 20%;
+    font-family: sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+ 
+}
+li{
+    padding: 13%;
+    padding-left: 25%;
+}
+i{
+    color: white;
+    padding-right: 5%;
+}
+#a3{
+    padding-top: 30%;
+    padding-left: 50px;
+    align-content: justify;
+    font-size: 30px;
+}
+#a1{
+    padding-top: 30%;
+    align-content: justify;
+    font-size: 30px;
+}
+#a2{
+    padding-top: 30%;
+    align-content: justify;
+    font-size: 30px;
+}
+a:hover, a:visited{
+    background: black;
+    padding: 15%;
+}
+body{
+    background:linear-gradient(to bottom right  ,green, blue, yellow)
+}

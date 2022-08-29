@@ -1,0 +1,96 @@
+* {
+    padding: 0%;
+    margin: 0%;
+} 
+
+body {
+    background:rgba(0, 0,0,0.7) url(image/island1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+div{
+    background-color: whitesmoke;
+    margin-top: 5%;
+    max-width: 800px;
+   max-height: 80vh;
+    margin-left: 22%;
+}
+
+h2 {
+    margin-left: 10%;
+    font-family:'poppins';
+    font-size: larger;
+    padding-top: 3%;
+}
+
+input {
+    padding: 1.5%;
+    border: 2px solid darkgray;
+    background-color: darkgray;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+label {
+    margin-left: 10%;
+    padding-bottom: 5%;
+    font-family: 'poppins';
+
+
+}
+
+.class{
+    margin-left: 2%;
+    width:40%;
+}
+.UP {
+    width: 31.5%;
+    margin-left: 10%;
+}
+.url {
+    height: 4vh;
+    width: 77.5%;
+    margin-left: 10%;
+}
+
+.message {
+    margin-top: 7%;
+}
+
+.last {
+    padding-bottom: 10%;
+    width: 77.5%;
+    margin-left: 10%;
+}
+
+.button {
+    color: white;
+    border: none;
+    padding: 2%;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    background: linear-gradient(135deg,blue,green);
+       
+}
+.button:hover{
+    background: linear-gradient(-135deg,green,blue);
+}
+.label{
+    padding-left:8% ;
+}
+p{
+    padding-left: 45%;
+    padding-top:3% ;
+}
+i{
+    font-size: 50px;
+    background-position: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}

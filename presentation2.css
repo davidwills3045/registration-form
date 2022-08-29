@@ -1,0 +1,86 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: rgba(0,0,0,0.7) url(image/island1.jpg);
+    background-size: cover;
+    background-blend-mode:darken;
+}
+
+nav {
+    background-color: transparent;
+    height: 15vh;
+}
+
+h2 {
+    color: white;
+    padding-top: 22px;
+    padding-left: 5%;
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    float: right;
+    padding-right: 70px;
+    padding-top: 26px;
+    list-style-type: none
+}
+
+li {
+    padding-right: 50px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2196a3;
+    position: relative;
+    overflow: hidden; 
+    transition: 1s;
+    padding: 15px 15px;
+}
+
+h1 {
+    color: white;
+    padding-left: 5%;
+    text-transform: uppercase;
+    font-family: 'poppins';
+}
+
+p {
+    color: white;
+    padding-left: 5%;
+    font-family: sans-serif;
+}
+
+.btn{
+    color: black;
+    font-family: sans-serif;
+    border: 3px solid black;
+    margin-left: 5%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white;
+
+}
+.btn:hover{
+    background: transparent;
+}
+a:hover, a:active{
+    color: white;
+    background: black;
+    box-shadow:0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    transition-delay: 0.1s;
+}
+.i{
+    letter-spacing:5px;
+    font-size: 250;
+}
+.h{
+    font-size: 250%;
+    letter-spacing: 10px;
+}
